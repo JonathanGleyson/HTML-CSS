@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {background-color: linen;}
+        mark {background-color: lime;}
+    </style>
+    <link rel="shortcut icon" href="faviconbellaitalia.ico.ico" type="image/x-icon">
+    <title>Listas OL e UL</title>
+</head>
+<body>
+    <h1>Trablhando com listas</h1>
+    <h2><ins>Listas ordenadas</ins></h2>
+    <ol type="1" start="1"> <!-- 1 A a I i-->
+        <li>Acordar</li>
+        <li>Escovar o dente</li>
+        <li>Tomar banho</li>
+        <li>Se arrumar</li>
+        <li>Ir trabalhar</li>
+        <li>Almoçar</li>
+        <li>Sair do trabalho</li>
+        <li>Estudar</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+        <!--Um atalho pra cria varias tag iguais com uma digitação é o "*" . Um exemplo as <li> voce digita li*7 por exemplo e vai cria 7 <li> quando der enter-->
+
+    <p><strong>Obs:</strong> Listas ordernadas é uma ordem dos itens que você deseja. Para criar uma lista ordenada igual a de cima, você começa com a tag &lt;ol&gt; para delimitar a lista e com a tag &lt;li&gt; para identifcar e dar ordem para cada item da lista. Caso deseja personalizar sua lista mudando a formatação da contagem, é só colocar a propriedade <mark>type=""</mark> dentro da tag &lt;ol&gt; e escolher o formato ou caso queira começar por um certo número da lista, é só colocar a propriedade <mark>start= ""</mark> dentro da tag &lt;ol&gt; também.  </p>
+    <h2><ins>Listas não ordenadas</ins></h2>
+    <ul> <!-- disc circle square -->
+        <li>Manteiga</li>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Nescau</li>
+        <li>Ovo</li>
+        <li>Sucrilhos</li>
+        <li>Queijo</li>
+        <li>Presunto</li>
+    </ul>
+   
+    <!--Um atalho pra cria varias tag iguais com uma digitação é o "*" . Um exemplo as <li> voce digita li*7 por exemplo e vai cria 7 <li> quando der enter-->
+
+    <p><strong>Obs:</strong> Listas não ordenadas é lista com marcadores, que são aquelas onde a ordem dos itens não influenciará. Para criar uma lista não ordenada, vamos usar a tag &lt;ul&gt; para demilitar e a tag &lt;li&gt; para criar cada um dos seus itens internos. Caso queira mudar o marcador padrão (bolinha preta), você pode mudar colocando a propriedade <mark>type=""</mark> dentro da tag &lt;ul&gt; e mudando com por <ins><em>disc</em></ins>, <ins><em>circle</em></ins> ou <ins><em>square</em></ins>.</p>
+    <h2><INS>Juntando listas</INS></h2>
+    <h3>Minhas linguagens favoritas</h3>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h3>Meus jogos favoritos</h3>
+    <ol>
+        <li>Nitendo</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bross 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>Super Nitendo</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2><ins>Lista de definição</ins></h2>
+    <dl>
+        <dt>HTML</dt>
+        <DD>Linguagem de marcação para criação do conteúdo de um síte</DD>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um síte</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um síte</dd>
+    </dl>
+
+    <!-- outra dica que facilita no Visual Studio Code. Por exemplo ao Invés de digitar OL depois 4 Li's pode usar o comando  ol>li*4   e depois tecla Tab que ele já faz toda a estrutura com os 4 LI's dentro. Isso serve para as outras tags também. -->
+    
+</body>
+</html>
